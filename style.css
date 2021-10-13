@@ -4,10 +4,9 @@
 }
 body{
 
-	background-image: url(Beach.jpeg);
 	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
 	font-family: sans-serif;
-	background-color: blue;
+	background-color: cyan;
 }
