@@ -8,4 +8,4 @@
 GithubCoder2021/GithubCoder2021 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-https://github-readme-stats.vercel.app/api?username=githubcoder2021
+[![GC2021's GitHub stats](https://github-readme-stats.vercel.app/api?username=githubcoder2021)](https://github.com/githubcoder2021/github-readme-stats)
