@@ -5,12 +5,19 @@ body{
 	background-position: center;
 	box-sizing: border-box;
 	font-family: sans-serif;
-	background-color: #ffeca8;
-}
+	background-color: #083c69;
+  color: #53fffe;
+  text-shadow:  0 0 50px #53fffe;
+ }
+
 
 button{
   padding: 10px 10px;
   color: white;
   background-color: black;
   border: 5px solid black;
+}
+
+a{
+  color: #53fffe;
 }
