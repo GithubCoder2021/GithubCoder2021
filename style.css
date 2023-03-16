@@ -1,7 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+
 body{
 
 	background-size: cover;
@@ -9,4 +6,11 @@ body{
 	box-sizing: border-box;
 	font-family: sans-serif;
 	background-color: #ffeca8;
+}
+
+button{
+  padding: 10px 10px;
+  color: white;
+  background-color: black;
+  border: 5px solid black;
 }
