@@ -1,22 +1,32 @@
-<<!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>GithubCoder2021</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-	
+
   </head>
+
   <body>
-	<h1>Welcome</h1>
-	  <h2>Age: 13, Gender: Male, Zodiac Sign: Cancer (the crab). This website is being improved...</h2>
-	  
-	  <h2>Games</h2>
-	  <a href="Chocolate-Factory">Chocolate Factory</a>
-	  <a href="tamagotchi-test">Tamagotchi remake</a>
-	  <a href="incremental-size">Incremental Size</a>
-	  <h2>Other</h2>
-	  <a href="CovidLiveTracker">Coronavirus Tracker (Resumed Dev)</a>
-	<script src="script.js"></script>
+    <center>
+      <h1>Welcome</h1>
+          <button onclick="tab('games')">Games</button><button onclick="tab('other')">Other</button>
+<hr>
+      <div id="games">
+        <h2>Games</h2>
+        <a href="Chocolate-Factory">Chocolate Factory</a>
+        <a href="tamagotchi-test">Tamagotchi remake</a>
+        <a href="incremental-size">Incremental Size</a>
+      </div>
+
+
+      <div id="other">
+        <h2>Other</h2>
+        <a href="CovidLiveTracker">Coronavirus Tracker (Resumed Dev)</a>
+      </div>
+    </center>
+    <script src="script.js"></script>
   </body>
+
 </html>
