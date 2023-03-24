@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 
   <head>
@@ -9,24 +10,37 @@
   </head>
 
   <body>
-    <center>
+ <center>
       <h1>Welcome</h1>
-          <button onclick="tab('games')">Games</button><button onclick="tab('other')">Other</button>
-<hr>
-      <div id="games">
+      <button onclick="tab('games')" class="nav">Main Games</button>
+      <button onclick="tab('side')" class="nav">Side Projects</button>
+      <button onclick="tab('other')" class="nav">Other</button>
+      <hr>
+      
+<div id="games">
         <h2>Games</h2>
-        <a href="Chocolate-Factory">Chocolate Factory</a>
-        <a href="tamagotchi-test">Tamagotchi remake</a>
-        <a href="incremental-size">Incremental Size</a>
+        <ul>
+          <li><button class="thing"><a href="Chocolate-Factory">Infini-Skyscraper</a></button></li>
+          <li><button class="thing"><a href="amoeba-incremental">Amoeba Incremental</a></button></li>
+          <li><button class="thing"><a href="kingdom-incremental">Kingdom Incremental</a></button></li>
+        </ul>
       </div>
-
+      <div id="side">
+        <h2>Side Projects</h2>
+        <ul>
+          <li><button class="thing"><a href="Chocolate-Factory">Chocolate Factory</a></button></li>
+          <li><button class="thing"><a href="tamagotchi-test">Tamagotchi remake</a></button></li>
+          <li><button class="thing"><a href="incremental-size">Incremental Size</a></button></li>
+        </ul>
+      </div>
 
       <div id="other">
         <h2>Other</h2>
-        <a href="CovidLiveTracker">Coronavirus Tracker (Resumed Dev)</a>
+        <li><button class="thing"><a href="CovidLiveTracker">Covid Live Tracker (semi-abandoned)</a></button></li>
       </div>
     </center>
     <script src="script.js"></script>
   </body>
 
 </html>
+
